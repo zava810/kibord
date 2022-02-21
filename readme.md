@@ -56,5 +56,5 @@ to add a keyboard layout to /usr/share/X11/xkb/rules/evdev.xml
 ```
 3. invoking niyu evdev, either by **sudo dpkg-reconfigure xkb-data**
 3.  or by deleting the xkm files in /var/lib/xkb and either logging out and back in or just switching to a new layout and back
-
+4. setxkbmap us # for us abc ; zi for skovz abc
 [xkblink1]: https://people.uleth.ca/~daniel.odonnell/blog/custom-keyboard-in-linuxx11
